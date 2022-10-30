@@ -79,3 +79,23 @@ body {
   }
 
 
+@media only screen and (max-width: 600px){
+    body {
+        background-image: url(images/jack2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+
+    #container {
+        width: 300px;
+    }
+
+    #container h1 {
+        font-size: 1.6rem;
+    }
+
+    #container p {
+        font-size: 1.2rem;
+    }
+}
