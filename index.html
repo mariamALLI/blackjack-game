@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>Blackjack Game</h1>
+        <p id="message_el">
+            Would you like to play?
+        </p>
+        <p id="cards_el">
+            Cards:
+        </p>
+        <p id="sum_el">
+            Sum: 
+        </p>
+        <div class="btns">
+            <button class="btn" onclick="startGame()">Start Game</button>
+            <button class="btn" onclick="newGame()">New Game</button>
+        </div>
+
+        <p id="player_el"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+
+body {
+    background-image: url(images/jack1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    background-image: url(images/jack3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    text-align: center;
+    width: 440px;
+    margin-top: 3rem;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 10px solid #F0C57F;
+    border-radius: 30px;
+}
+
+#container h1 {
+    color: #F0C57F;
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#container p {
+    color: #F0C57F;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#message_el, #cards_el, #sum_el {
+    border: none;
+    background: #0000008a;
+    border-radius: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.btn {
+    min-width: 130px;
+    height: 40px;
+    color: #000;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #F0C57F;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+  .btn:hover {
+    background: transparent;
+    color: #F0C57F;
+    text-shadow: 5px 5px 5px #000;
+  }
+
+
